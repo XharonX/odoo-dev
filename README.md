@@ -34,14 +34,14 @@ options:
 
 ### Bash Shell (Linux)
 ```bash
-    $ chmod +x odoo_dev/run
-    $ odoo_dev/run -p project_name -u upgrade_module # to run default odoo version
-    $ odoo_dev/run -v version -p project_name -d database -u upgrade_module -s # odoo shell
+    $ chmod +x odoo-dev/run
+    $ odoo-dev/run -p project_name -u upgrade_module # to run default odoo version
+    $ odoo-dev/run -v version -p project_name -d database -u upgrade_module -s # odoo shell
 ```
 ***
 ### Python and Windows users
 ```bash
-    $ python3 odoo_dev/run -v version -p project_name -d database -u upgrade_module -s 
-    $ python3 odoo_dev/run -v version -p project_name -d database -u upgrade_module
+    $ python3 odoo-dev/run -v version -p project_name -d database -u upgrade_module -s 
+    $ python3 odoo-dev/run -v version -p project_name -d database -u upgrade_module
 ```
 
